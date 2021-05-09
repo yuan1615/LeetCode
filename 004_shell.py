@@ -51,7 +51,31 @@ class Solution(object):
         print('最终输出结果为', nums)
 
 
+# 上面利用了中间变量nums_ind_i来存储每一个gap需要排序的值了，其实不用这样，多占用了内存空间了！
+
+class Solution2(object):
+    def swap(self, arr, i, j):
+        temp = arr[i]
+        arr[i] = arr[j]
+        arr[j] = temp
+
+    def shell(self, nums):
+        gap = 4
+        while gap >= 1:
+            for i in range(gap, len(nums)):
+                for j in range(i, i % gap, -gap):
+                    if nums[j] > nums[j - gap]:
+                        break
+                    elif nums[j] < nums[j - gap]:
+                        self.swap(nums, j, j - gap)
+            print('gap=%d的输出结果是' % gap, nums)
+            gap = int(gap/2)
+
+
 if __name__ == '__main__':
-    solution = Solution()
+    # solution = Solution()
+    # nums = [9, 6, 11, 3, 5, 12, 8, 7, 10, 15, 14, 4, 1, 13, 2]
+    # solution.shell(nums)
+    solution = Solution2()
     nums = [9, 6, 11, 3, 5, 12, 8, 7, 10, 15, 14, 4, 1, 13, 2]
     solution.shell(nums)
