@@ -60,7 +60,11 @@ class Solution2(object):
         arr[j] = temp
 
     def shell(self, nums):
-        gap = 4
+        # Knuth序列计算gap
+        h = 1
+        while h <= len(nums)/3:
+            h = h * 3 + 1
+        gap = h
         while gap >= 1:
             for i in range(gap, len(nums)):
                 for j in range(i, i % gap, -gap):
@@ -69,7 +73,7 @@ class Solution2(object):
                     elif nums[j] < nums[j - gap]:
                         self.swap(nums, j, j - gap)
             print('gap=%d的输出结果是' % gap, nums)
-            gap = int(gap/2)
+            gap = int((gap - 1)/3)
 
 
 if __name__ == '__main__':

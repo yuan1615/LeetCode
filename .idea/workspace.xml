@@ -194,7 +194,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1620382512250</updated>
-      <workItem from="1620382519813" duration="20349000" />
+      <workItem from="1620382519813" duration="22743000" />
     </task>
     <task id="LOCAL-00001" summary="2021">
       <created>1620553917859</created>
@@ -203,7 +203,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620553917859</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="2021">
+      <created>1620558301867</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1620558301867</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -225,7 +232,7 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/LeetCode$004_shell__1_.coverage" NAME="004_shell (1) Coverage Results" MODIFIED="1620558280450" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_HOME_DIR$/jbr/bin/PycharmProjects/LeetCode" />
+    <SUITE FILE_PATH="coverage/LeetCode$004_shell__1_.coverage" NAME="004_shell (1) Coverage Results" MODIFIED="1620558883159" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_HOME_DIR$/jbr/bin/PycharmProjects/LeetCode" />
     <SUITE FILE_PATH="coverage/LeetCode$shell.coverage" NAME="shell Coverage Results" MODIFIED="1620552596891" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_HOME_DIR$/jbr/bin/PycharmProjects/LeetCode" />
     <SUITE FILE_PATH="coverage/LeetCode$001_select_sort.coverage" NAME="001_select_sort Coverage Results" MODIFIED="1620470370352" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_HOME_DIR$/jbr/bin/PycharmProjects/LeetCode" />
     <SUITE FILE_PATH="coverage/LeetCode$insertion.coverage" NAME="insertion Coverage Results" MODIFIED="1620552504237" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_HOME_DIR$/jbr/bin/PycharmProjects/LeetCode" />
